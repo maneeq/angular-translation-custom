@@ -1,0 +1,16 @@
+.language-switcher-container  {
+  /* Set the desired height */
+  /* Add a border for better visibility */
+    padding: 10px; /* Add some padding for spacing */
+    display: inline-block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+   /* Make the div inline so it only takes as much space as needed */
+  }
+
+  .language-switcher-container:hover  {
+    
+    background-color: #1976d2;
+    transform: scale(1.1);
+     /* Make the div inline so it only takes as much space as needed */
+    }
+  

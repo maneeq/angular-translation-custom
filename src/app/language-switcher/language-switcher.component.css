@@ -1,0 +1,47 @@
+ .language-select option{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    /* font-weight: 700; */
+    line-height: 24px;
+    display: block;
+  }
+  .language-select option:hover {
+    text-decoration: none;
+    background-color: #EDF0F2;
+    color: #ffffff;
+} .language-select  option.selected {
+    background-color: transparent;
+}
+.language-select option.selected:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+.language-select {
+
+    cursor: pointer;
+    font-size: 12px;
+  
+}
+.language-select {
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: Raleway;
+    border:none ;
+    color: rgb(0, 0, 0) ;
+    /* color: rgb(0, 0, 0); */
+    background-color: transparent !important;
+   background-color:hsl(0deg 100% 42.55%); 
+    /* text-decoration: underline; */
+    border-radius: 30px;
+    
+}
